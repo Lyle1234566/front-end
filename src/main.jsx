@@ -7,11 +7,11 @@ import "bootstrap/dist/js/bootstrap.js";
 import axios from "axios";
 axios.defaults.withCredentials = true;
 
-export const backend_server = "https://back-end-c25l.onrender.com";
+export const backend_server = "https://back-end-99ek.onrender.com";
 
 // Set up axios headers to help with CORS
 axios.defaults.headers.common["Access-Control-Allow-Origin"] =
-  "front-end-123.vercel.app";
+  "https://front-end-123.vercel.app";
 axios.defaults.headers.common["Content-Type"] = "application/json";
 
 // Wrap App in a loading handler component
