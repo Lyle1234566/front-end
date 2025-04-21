@@ -11,7 +11,7 @@ export const backend_server = "https://back-end-c25l.onrender.com";
 
 // Set up axios headers to help with CORS
 axios.defaults.headers.common["Access-Control-Allow-Origin"] =
-  "https://front-end-1iog.vercel.app";
+  "front-end-sigma-lovat.vercel.app";
 axios.defaults.headers.common["Content-Type"] = "application/json";
 
 // Wrap App in a loading handler component
