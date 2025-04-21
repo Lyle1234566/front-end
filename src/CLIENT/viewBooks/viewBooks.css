@@ -1,0 +1,34 @@
+@media screen and (min-width: 992px) {
+  .image-div {
+    text-align: right !important;
+    width: fit-content !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .image-div {
+    text-align: center !important;
+    width: fit-content !important;
+  }
+}
+.rating {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.star {
+  color: #ccc;
+  transition: color 0.3s;
+  font-size: 24px !important; /* Default size */
+}
+
+.star:hover,
+.star.filled {
+  color: #ffd700; /* Gold for filled stars */
+}
+
+/* Larger star size with !important */
+.large-stars .star {
+  font-size: 100px !important; /* Force larger size */
+}
