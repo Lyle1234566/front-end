@@ -7,7 +7,7 @@ import "bootstrap/dist/js/bootstrap.js";
 import axios from "axios";
 axios.defaults.withCredentials = true;
 
-export const backend_server = "https://back-end-99ek.onrender.com";
+export const backend_server = "https://back-end-a8ix.onrender.com";
 
 // Set up axios headers to help with CORS
 axios.defaults.headers.common["Access-Control-Allow-Origin"] =
